@@ -62,7 +62,8 @@ sequenceDiagram
 ```
 ----------------------------------
 ## 使用案例一
-```mermaidflowchart TD
+```mermaid
+flowchart TD
     A[開始] --> B[輸入帳號密碼]
     B --> C{驗證成功?}
     C -->|是| D[登入成功]
@@ -119,7 +120,8 @@ sequenceDiagram
 
 ----------------------------------
 ## 使用案例三
-```mermaidflowchart TD
+```mermaid
+flowchart TD
     A[開始] --> B[瀏覽商品]
     B --> C{加入我的最愛?}
     C -->|是| D[新增至收藏清單]
